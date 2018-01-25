@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18344DC31F65AB2400D11FBE /* SCShellWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18344DC21F65AB2400D11FBE /* SCShellWindowController.swift */; };
+		18344DC51F65AB2400D11FBE /* SCShellWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18344DC41F65AB2400D11FBE /* SCShellWindow.swift */; };
+		18344DC71F65AB2400D11FBE /* SCShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18344DC61F65AB2400D11FBE /* SCShellView.swift */; };
+		18344DC91F65AB2400D11FBE /* ShellWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18344DC81F65AB2400D11FBE /* ShellWindow.xib */; };
+		184793201F4D5B900011E9A1 /* SafetyBalloon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1847931F1F4D5B900011E9A1 /* SafetyBalloon.xib */; };
+		184793231F4D5BE30011E9A1 /* SCSafetyBalloonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184793221F4D5BE30011E9A1 /* SCSafetyBalloonController.swift */; };
+		184793251F4D5C2B0011E9A1 /* SCBorderlessWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184793241F4D5C2B0011E9A1 /* SCBorderlessWindow.swift */; };
+		184793271F4D5DEC0011E9A1 /* SCSafetyBalloonBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184793261F4D5DEC0011E9A1 /* SCSafetyBalloonBackgroundView.swift */; };
+		185A22CE1F447F7C00042CA7 /* SCBalloonSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A22CD1F447F7C00042CA7 /* SCBalloonSkin.swift */; };
+		185A22D01F44866900042CA7 /* SCBalloonSkinServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A22CF1F44866900042CA7 /* SCBalloonSkinServer.swift */; };
+		185B6E001F55B18600485C9E /* SCSeriko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6DFF1F55B18600485C9E /* SCSeriko.swift */; };
+		185B6E021F55B25300485C9E /* SCSerikoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E011F55B25300485C9E /* SCSerikoLibrary.swift */; };
+		185B6E041F55B2CC00485C9E /* SCSerikoSeqGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E031F55B2CC00485C9E /* SCSerikoSeqGroup.swift */; };
+		185B6E061F55B36200485C9E /* SCSerikoSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E051F55B36200485C9E /* SCSerikoSequence.swift */; };
+		185B6E081F55B3ED00485C9E /* SCSerikoSeqIntervalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E071F55B3ED00485C9E /* SCSerikoSeqIntervalEntry.swift */; };
+		185B6E0A1F55B49E00485C9E /* SCSerikoSeqOptionEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E091F55B49E00485C9E /* SCSerikoSeqOptionEntry.swift */; };
+		185B6E0C1F55B4F800485C9E /* SCSerikoSeqPatternEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E0B1F55B4F800485C9E /* SCSerikoSeqPatternEntry.swift */; };
+		185B6E0F1F55BF4700485C9E /* SCSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E0E1F55BF4700485C9E /* SCSurface.swift */; };
+		186D96251F56E5CD007970F9 /* SCSurfaceServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D96241F56E5CD007970F9 /* SCSurfaceServer.swift */; };
+		188DA5441F4331A300E492AE /* SCBlockedDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DA5431F4331A300E492AE /* SCBlockedDescription.swift */; };
+		189187541F404BE500F5D371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189187531F404BE500F5D371 /* AppDelegate.swift */; };
+		189187561F404BE500F5D371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189187551F404BE500F5D371 /* ViewController.swift */; };
+		189187581F404BE500F5D371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189187571F404BE500F5D371 /* Assets.xcassets */; };
+		1891875B1F404BE500F5D371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189187591F404BE500F5D371 /* Main.storyboard */; };
+		189187641F404EF700F5D371 /* SCDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189187631F404EF700F5D371 /* SCDescription.swift */; };
+		189BF3961F717B52005EFF15 /* SCSerikoSequenceRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BF3951F717B52005EFF15 /* SCSerikoSequenceRunner.swift */; };
+		189BF3991F717DC4005EFF15 /* SCShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BF3981F717DC4005EFF15 /* SCShell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18344DC21F65AB2400D11FBE /* SCShellWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCShellWindowController.swift; sourceTree = "<group>"; };
+		18344DC41F65AB2400D11FBE /* SCShellWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCShellWindow.swift; sourceTree = "<group>"; };
+		18344DC61F65AB2400D11FBE /* SCShellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCShellView.swift; sourceTree = "<group>"; };
+		18344DC81F65AB2400D11FBE /* ShellWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShellWindow.xib; sourceTree = "<group>"; };
+		1847931F1F4D5B900011E9A1 /* SafetyBalloon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafetyBalloon.xib; sourceTree = "<group>"; };
+		184793221F4D5BE30011E9A1 /* SCSafetyBalloonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSafetyBalloonController.swift; sourceTree = "<group>"; };
+		184793241F4D5C2B0011E9A1 /* SCBorderlessWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBorderlessWindow.swift; sourceTree = "<group>"; };
+		184793261F4D5DEC0011E9A1 /* SCSafetyBalloonBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSafetyBalloonBackgroundView.swift; sourceTree = "<group>"; };
+		185A22CD1F447F7C00042CA7 /* SCBalloonSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBalloonSkin.swift; sourceTree = "<group>"; };
+		185A22CF1F44866900042CA7 /* SCBalloonSkinServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBalloonSkinServer.swift; sourceTree = "<group>"; };
+		185B6DFF1F55B18600485C9E /* SCSeriko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSeriko.swift; sourceTree = "<group>"; };
+		185B6E011F55B25300485C9E /* SCSerikoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSerikoLibrary.swift; sourceTree = "<group>"; };
+		185B6E031F55B2CC00485C9E /* SCSerikoSeqGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSerikoSeqGroup.swift; sourceTree = "<group>"; };
+		185B6E051F55B36200485C9E /* SCSerikoSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSerikoSequence.swift; sourceTree = "<group>"; };
+		185B6E071F55B3ED00485C9E /* SCSerikoSeqIntervalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSerikoSeqIntervalEntry.swift; sourceTree = "<group>"; };
+		185B6E091F55B49E00485C9E /* SCSerikoSeqOptionEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSerikoSeqOptionEntry.swift; sourceTree = "<group>"; };
+		185B6E0B1F55B4F800485C9E /* SCSerikoSeqPatternEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSerikoSeqPatternEntry.swift; sourceTree = "<group>"; };
+		185B6E0E1F55BF4700485C9E /* SCSurface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSurface.swift; sourceTree = "<group>"; };
+		186D96241F56E5CD007970F9 /* SCSurfaceServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSurfaceServer.swift; sourceTree = "<group>"; };
+		188DA5431F4331A300E492AE /* SCBlockedDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBlockedDescription.swift; sourceTree = "<group>"; };
+		189187501F404BE500F5D371 /* NiseRingoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiseRingoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189187531F404BE500F5D371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189187551F404BE500F5D371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189187571F404BE500F5D371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1891875A1F404BE500F5D371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1891875C1F404BE500F5D371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189187631F404EF700F5D371 /* SCDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCDescription.swift; sourceTree = "<group>"; };
+		189BF3951F717B52005EFF15 /* SCSerikoSequenceRunner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSerikoSequenceRunner.swift; sourceTree = "<group>"; };
+		189BF3981F717DC4005EFF15 /* SCShell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCShell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1891874D1F404BE500F5D371 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18344DC11F65AB2400D11FBE /* Shell Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18344DC21F65AB2400D11FBE /* SCShellWindowController.swift */,
+				18344DC41F65AB2400D11FBE /* SCShellWindow.swift */,
+				18344DC61F65AB2400D11FBE /* SCShellView.swift */,
+			);
+			name = "Shell Classes";
+			sourceTree = "<group>";
+		};
+		1847931E1F4D5B5B0011E9A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1847931F1F4D5B900011E9A1 /* SafetyBalloon.xib */,
+				18344DC81F65AB2400D11FBE /* ShellWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		184793211F4D5BC20011E9A1 /* Balloon Classes */ = {
+			isa = PBXGroup;
+			children = (
+				184793221F4D5BE30011E9A1 /* SCSafetyBalloonController.swift */,
+				184793241F4D5C2B0011E9A1 /* SCBorderlessWindow.swift */,
+				184793261F4D5DEC0011E9A1 /* SCSafetyBalloonBackgroundView.swift */,
+			);
+			name = "Balloon Classes";
+			sourceTree = "<group>";
+		};
+		185A22CC1F447F4D00042CA7 /* Image Classes */ = {
+			isa = PBXGroup;
+			children = (
+				185A22CD1F447F7C00042CA7 /* SCBalloonSkin.swift */,
+				185A22CF1F44866900042CA7 /* SCBalloonSkinServer.swift */,
+				185B6E0E1F55BF4700485C9E /* SCSurface.swift */,
+				186D96241F56E5CD007970F9 /* SCSurfaceServer.swift */,
+			);
+			name = "Image Classes";
+			sourceTree = "<group>";
+		};
+		185B6DFE1F55B11100485C9E /* Seriko */ = {
+			isa = PBXGroup;
+			children = (
+				185B6DFF1F55B18600485C9E /* SCSeriko.swift */,
+				185B6E011F55B25300485C9E /* SCSerikoLibrary.swift */,
+				185B6E031F55B2CC00485C9E /* SCSerikoSeqGroup.swift */,
+				185B6E051F55B36200485C9E /* SCSerikoSequence.swift */,
+				185B6E071F55B3ED00485C9E /* SCSerikoSeqIntervalEntry.swift */,
+				185B6E091F55B49E00485C9E /* SCSerikoSeqOptionEntry.swift */,
+				185B6E0B1F55B4F800485C9E /* SCSerikoSeqPatternEntry.swift */,
+				189BF3951F717B52005EFF15 /* SCSerikoSequenceRunner.swift */,
+			);
+			name = Seriko;
+			sourceTree = "<group>";
+		};
+		189187471F404BE400F5D371 = {
+			isa = PBXGroup;
+			children = (
+				189187521F404BE500F5D371 /* NiseRingoX */,
+				189187511F404BE500F5D371 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189187511F404BE500F5D371 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189187501F404BE500F5D371 /* NiseRingoX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189187521F404BE500F5D371 /* NiseRingoX */ = {
+			isa = PBXGroup;
+			children = (
+				189BF3971F717DA5005EFF15 /* Session */,
+				18344DC11F65AB2400D11FBE /* Shell Classes */,
+				185B6DFE1F55B11100485C9E /* Seriko */,
+				184793211F4D5BC20011E9A1 /* Balloon Classes */,
+				1847931E1F4D5B5B0011E9A1 /* Resources */,
+				185A22CC1F447F4D00042CA7 /* Image Classes */,
+				189187621F404E7D00F5D371 /* Description */,
+				189187531F404BE500F5D371 /* AppDelegate.swift */,
+				189187551F404BE500F5D371 /* ViewController.swift */,
+				189187571F404BE500F5D371 /* Assets.xcassets */,
+				189187591F404BE500F5D371 /* Main.storyboard */,
+				1891875C1F404BE500F5D371 /* Info.plist */,
+			);
+			path = NiseRingoX;
+			sourceTree = "<group>";
+		};
+		189187621F404E7D00F5D371 /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				189187631F404EF700F5D371 /* SCDescription.swift */,
+				188DA5431F4331A300E492AE /* SCBlockedDescription.swift */,
+			);
+			name = Description;
+			sourceTree = "<group>";
+		};
+		189BF3971F717DA5005EFF15 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				189BF3981F717DC4005EFF15 /* SCShell.swift */,
+			);
+			name = Session;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1891874F1F404BE500F5D371 /* NiseRingoX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1891875F1F404BE500F5D371 /* Build configuration list for PBXNativeTarget "NiseRingoX" */;
+			buildPhases = (
+				1891874C1F404BE500F5D371 /* Sources */,
+				1891874D1F404BE500F5D371 /* Frameworks */,
+				1891874E1F404BE500F5D371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiseRingoX;
+			productName = NiseRingoX;
+			productReference = 189187501F404BE500F5D371 /* NiseRingoX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189187481F404BE400F5D371 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					1891874F1F404BE500F5D371 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1891874B1F404BE400F5D371 /* Build configuration list for PBXProject "NiseRingoX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189187471F404BE400F5D371;
+			productRefGroup = 189187511F404BE500F5D371 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1891874F1F404BE500F5D371 /* NiseRingoX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1891874E1F404BE500F5D371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18344DC91F65AB2400D11FBE /* ShellWindow.xib in Resources */,
+				184793201F4D5B900011E9A1 /* SafetyBalloon.xib in Resources */,
+				189187581F404BE500F5D371 /* Assets.xcassets in Resources */,
+				1891875B1F404BE500F5D371 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1891874C1F404BE500F5D371 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B6E021F55B25300485C9E /* SCSerikoLibrary.swift in Sources */,
+				189187561F404BE500F5D371 /* ViewController.swift in Sources */,
+				184793231F4D5BE30011E9A1 /* SCSafetyBalloonController.swift in Sources */,
+				18344DC51F65AB2400D11FBE /* SCShellWindow.swift in Sources */,
+				184793271F4D5DEC0011E9A1 /* SCSafetyBalloonBackgroundView.swift in Sources */,
+				18344DC71F65AB2400D11FBE /* SCShellView.swift in Sources */,
+				185B6E0A1F55B49E00485C9E /* SCSerikoSeqOptionEntry.swift in Sources */,
+				186D96251F56E5CD007970F9 /* SCSurfaceServer.swift in Sources */,
+				189BF3991F717DC4005EFF15 /* SCShell.swift in Sources */,
+				185B6E081F55B3ED00485C9E /* SCSerikoSeqIntervalEntry.swift in Sources */,
+				184793251F4D5C2B0011E9A1 /* SCBorderlessWindow.swift in Sources */,
+				185A22CE1F447F7C00042CA7 /* SCBalloonSkin.swift in Sources */,
+				185B6E0F1F55BF4700485C9E /* SCSurface.swift in Sources */,
+				189187541F404BE500F5D371 /* AppDelegate.swift in Sources */,
+				185B6E0C1F55B4F800485C9E /* SCSerikoSeqPatternEntry.swift in Sources */,
+				185A22D01F44866900042CA7 /* SCBalloonSkinServer.swift in Sources */,
+				185B6E001F55B18600485C9E /* SCSeriko.swift in Sources */,
+				189BF3961F717B52005EFF15 /* SCSerikoSequenceRunner.swift in Sources */,
+				185B6E041F55B2CC00485C9E /* SCSerikoSeqGroup.swift in Sources */,
+				18344DC31F65AB2400D11FBE /* SCShellWindowController.swift in Sources */,
+				189187641F404EF700F5D371 /* SCDescription.swift in Sources */,
+				185B6E061F55B36200485C9E /* SCSerikoSequence.swift in Sources */,
+				188DA5441F4331A300E492AE /* SCBlockedDescription.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189187591F404BE500F5D371 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1891875A1F404BE500F5D371 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1891875D1F404BE500F5D371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1891875E1F404BE500F5D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		189187601F404BE500F5D371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NiseRingoX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niseringo.NiseRingoX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		189187611F404BE500F5D371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NiseRingoX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niseringo.NiseRingoX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1891874B1F404BE400F5D371 /* Build configuration list for PBXProject "NiseRingoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1891875D1F404BE500F5D371 /* Debug */,
+				1891875E1F404BE500F5D371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1891875F1F404BE500F5D371 /* Build configuration list for PBXNativeTarget "NiseRingoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189187601F404BE500F5D371 /* Debug */,
+				189187611F404BE500F5D371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189187481F404BE400F5D371 /* Project object */;
+}
