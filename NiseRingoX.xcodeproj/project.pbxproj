@@ -26,6 +26,7 @@
 		185B6E0C1F55B4F800485C9E /* SCSerikoSeqPatternEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E0B1F55B4F800485C9E /* SCSerikoSeqPatternEntry.swift */; };
 		185B6E0F1F55BF4700485C9E /* SCSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B6E0E1F55BF4700485C9E /* SCSurface.swift */; };
 		186D96251F56E5CD007970F9 /* SCSurfaceServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D96241F56E5CD007970F9 /* SCSurfaceServer.swift */; };
+		1883AF79201D7E45002BC480 /* SCBalloonTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883AF78201D7E45002BC480 /* SCBalloonTextView.swift */; };
 		188DA5441F4331A300E492AE /* SCBlockedDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DA5431F4331A300E492AE /* SCBlockedDescription.swift */; };
 		189187541F404BE500F5D371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189187531F404BE500F5D371 /* AppDelegate.swift */; };
 		189187561F404BE500F5D371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189187551F404BE500F5D371 /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 		185B6E0B1F55B4F800485C9E /* SCSerikoSeqPatternEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSerikoSeqPatternEntry.swift; sourceTree = "<group>"; };
 		185B6E0E1F55BF4700485C9E /* SCSurface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSurface.swift; sourceTree = "<group>"; };
 		186D96241F56E5CD007970F9 /* SCSurfaceServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSurfaceServer.swift; sourceTree = "<group>"; };
+		1883AF78201D7E45002BC480 /* SCBalloonTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCBalloonTextView.swift; sourceTree = "<group>"; };
 		188DA5431F4331A300E492AE /* SCBlockedDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCBlockedDescription.swift; sourceTree = "<group>"; };
 		189187501F404BE500F5D371 /* NiseRingoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiseRingoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189187531F404BE500F5D371 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				184793221F4D5BE30011E9A1 /* SCSafetyBalloonController.swift */,
 				184793241F4D5C2B0011E9A1 /* SCBorderlessWindow.swift */,
 				184793261F4D5DEC0011E9A1 /* SCSafetyBalloonBackgroundView.swift */,
+				1883AF78201D7E45002BC480 /* SCBalloonTextView.swift */,
 			);
 			name = "Balloon Classes";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				184793271F4D5DEC0011E9A1 /* SCSafetyBalloonBackgroundView.swift in Sources */,
 				18344DC71F65AB2400D11FBE /* SCShellView.swift in Sources */,
 				185B6E0A1F55B49E00485C9E /* SCSerikoSeqOptionEntry.swift in Sources */,
+				1883AF79201D7E45002BC480 /* SCBalloonTextView.swift in Sources */,
 				186D96251F56E5CD007970F9 /* SCSurfaceServer.swift in Sources */,
 				189BF3991F717DC4005EFF15 /* SCShell.swift in Sources */,
 				185B6E081F55B3ED00485C9E /* SCSerikoSeqIntervalEntry.swift in Sources */,
